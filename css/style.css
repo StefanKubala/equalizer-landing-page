@@ -190,3 +190,112 @@ footer {
 .footer-mail:active {
   color: #000;
 }
+
+.svg {
+  transition: all 0.2s;
+}
+
+.svg:hover,
+.svg:active {
+  scale: 1.1;
+}
+
+@media only screen and (max-width: 1500px) {
+  html {
+    font-size: 54%;
+  }
+
+  .header,
+  .container-top {
+    padding-left: 7rem;
+  }
+
+  .main-heading {
+    font-size: 7rem;
+    width: 58%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-logo,
+  .footer-text {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  body {
+    background: url(../img/bg-main-tablet.png) -40rem -30rem,
+      url(../img/bg-pattern-1.svg) right top -5rem no-repeat;
+  }
+
+  .main-container {
+    margin: 40rem 5rem 10rem 5rem;
+    background-position: 63% -160%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background: url(../img/bg-main-mobile.png) -40rem -30rem;
+    background-repeat: no-repeat;
+    background-position: 0rem -20rem;
+  }
+
+  .main-heading,
+  .main-text {
+    width: 100%;
+  }
+
+  .info-box {
+    position: sticky;
+    width: 100%;
+  }
+
+  .main-container {
+    margin: 40rem 0rem -10rem 0rem;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .footer-logo {
+    width: 20rem;
+    margin-bottom: 3rem;
+  }
+
+  .social-container {
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .main-heading {
+    font-size: 4rem;
+  }
+
+  .main-container {
+    background-position: 62% 10%;
+    margin: 15rem 0rem -10rem 0rem;
+  }
+
+  .header,
+  .container-top {
+    padding: 3rem;
+  }
+
+  .mobile-img {
+    width: 23rem;
+    position: absolute;
+    height: 49rem;
+    top: -6rem;
+    left: 23%;
+    z-index: 10;
+  }
+}
