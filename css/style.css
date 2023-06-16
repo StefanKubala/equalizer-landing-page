@@ -28,38 +28,43 @@ body {
 }
 
 .main-heading {
-  font-size: 9rem;
+  font-size: 10rem;
   width: 80%;
   font-weight: 700;
   margin-bottom: 3rem;
 }
 
 .main-text {
-  font-size: 2.2rem;
-  width: 81%;
+  font-size: 2.3rem;
+  width: 63%;
+}
+
+.main-section {
+  position: relative;
 }
 
 .main-container {
   padding: 6rem;
   position: relative;
   display: flex;
-  margin-bottom: 30rem;
-  margin-top: 30rem;
+  margin-bottom: 10rem;
+  margin-top: 40rem;
   height: 61rem;
   justify-content: space-between;
   background: url(../img/bg-pattern-2.svg);
-  background-position: 40% -44%;
+  background-position: 45% -35%;
   background-repeat: no-repeat;
   background-color: #191826;
   border-radius: 1rem;
 }
 
 .mobile-img {
-  width: 30rem;
-  position: relative;
-  height: 60rem;
+  width: 35rem;
+  position: absolute;
+  height: 69rem;
   top: -26rem;
-  left: 4%;
+  left: 14%;
+  z-index: 10;
 }
 
 .info-box {
@@ -69,9 +74,10 @@ body {
   width: 45rem;
   height: 60rem;
   padding: 5rem;
-  right: 10%;
+  right: 14%;
   top: 10rem;
   border-radius: 1rem;
+  z-index: 20;
 }
 
 .info-box h3 {
@@ -151,4 +157,36 @@ body {
 .ios-img,
 .android-img {
   margin-right: 1rem;
+}
+
+footer {
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 5rem;
+}
+
+.social-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-logo {
+  height: 4rem;
+  margin-right: 13%;
+}
+
+.footer-text {
+  font-size: 1.5rem;
+  margin-right: 43%;
+}
+
+.footer-mail {
+  color: #000;
+  font-weight: 700;
+}
+
+.footer-mail:hover,
+.footer-mail:active {
+  color: #000;
 }
