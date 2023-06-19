@@ -110,6 +110,9 @@ body {
 }
 
 .ios-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #191826;
   width: 100%;
   text-decoration: none;
@@ -117,7 +120,6 @@ body {
   padding: 2rem;
   font-size: 1.8rem;
   text-align: center;
-  display: block;
   border-radius: 1.2rem;
   transition: all 0.2s;
   font-weight: 700;
@@ -133,6 +135,9 @@ body {
 }
 
 .android-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #fff;
   width: 100%;
   text-decoration: none;
@@ -140,7 +145,6 @@ body {
   padding: 2rem;
   font-size: 1.8rem;
   text-align: center;
-  display: block;
   border-radius: 1.2rem;
   transition: all 0.2s;
   font-weight: 700;
@@ -161,7 +165,6 @@ body {
 
 footer {
   display: flex;
-  /* justify-content: space-between; */
   padding: 5rem;
 }
 
@@ -184,11 +187,13 @@ footer {
 .footer-mail {
   color: #000;
   font-weight: 700;
+  text-decoration: none;
 }
 
 .footer-mail:hover,
 .footer-mail:active {
   color: #000;
+  text-decoration: underline;
 }
 
 .svg {
